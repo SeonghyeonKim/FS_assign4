@@ -33,6 +33,15 @@
     <ClCompile Include="z-test-makerecord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fixfld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixlen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="length.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="buffile.h">
@@ -51,6 +60,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="varlen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fixfld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fixlen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="length.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="student.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

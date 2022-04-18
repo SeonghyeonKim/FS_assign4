@@ -1,0 +1,14 @@
+﻿  z-test-makerecord.cpp
+C:\Users\juhye\Documents\GitHub\FS_assign4\recfile.h(38,20): error C2039: 'Pack': 'Student'의 멤버가 아닙니다.
+C:\Users\juhye\Documents\GitHub\FS_assign4\student.h(6): message : 'Student' 선언을 참조하십시오.
+C:\Users\juhye\Documents\GitHub\FS_assign4\recfile.h(36): message : 클래스 템플릿 멤버 함수 'int RecordFile<Student>::Write(const RecType &,int)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              RecType=Student
+          ]
+C:\Users\juhye\Documents\GitHub\FS_assign4\z-test-makerecord.cpp(118): message : 컴파일되는 함수 템플릿 인스턴스화 'int RecordFile<Student>::Write(const RecType &,int)'에 대한 참조를 확인하세요.
+          with
+          [
+              RecType=Student
+          ]
+C:\Users\juhye\Documents\GitHub\FS_assign4\z-test-makerecord.cpp(104): message : 컴파일되는 클래스 템플릿 인스턴스화 'RecordFile<Student>'에 대한 참조를 확인하세요.

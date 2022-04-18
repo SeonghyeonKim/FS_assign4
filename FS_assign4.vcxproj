@@ -100,7 +100,10 @@
   <ItemGroup>
     <ClCompile Include="buffile.cpp" />
     <ClCompile Include="delim.cpp" />
+    <ClCompile Include="fixfld.cpp" />
+    <ClCompile Include="fixlen.cpp" />
     <ClCompile Include="iobuffer.cpp" />
+    <ClCompile Include="length.cpp" />
     <ClCompile Include="recordng.cpp" />
     <ClCompile Include="varlen.cpp" />
     <ClCompile Include="z-test-makerecord.cpp" />
@@ -108,9 +111,13 @@
   <ItemGroup>
     <ClInclude Include="buffile.h" />
     <ClInclude Include="delim.h" />
+    <ClInclude Include="fixfld.h" />
+    <ClInclude Include="fixlen.h" />
     <ClInclude Include="iobuffer.h" />
+    <ClInclude Include="length.h" />
     <ClInclude Include="recfile.h" />
     <ClInclude Include="recordng.h" />
+    <ClInclude Include="student.h" />
     <ClInclude Include="varlen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
